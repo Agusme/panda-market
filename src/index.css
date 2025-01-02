@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.bg-navbar{
+  background-color: #8ED7D5;
+  padding: 0px !important;
+}
+.bg-search{
+  background-color: #f0f8ff92 !important;
+}
+.bg-lupa{
+  background-color: #f0f8ff92 !important;
+color: #ffffff !important;
+}
+.bg-search::placeholder {
+
+  color: #ffffff !important; 
+}
+.grouped-items {
+  background-color: #F97AA9 ;
+  height: 100% !important;     
+  padding: 0px !important;
+margin: 0px;
+}
+.bg-rosa{
+  background-color: #F97AA9 ;
+  font-size:0.75rem;
+  top: 10px;
+  padding: 3px 5px !important;
+}
+.logo-size{
+  width: 15vw;
+}
+
+.font-family-header{
+  font-family: "Hanken Grotesk", serif;
+
+}
+.hr-pink{
+  background-color:#FFDBDE;
+}
+@media screen and (max-width: 768px) {
+  .logo-size {
+    width: 25vw; /* Incrementa el tamaño en pantallas pequeñas */
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .logo-size {
+    width: 35vw; /* Aumenta aún más para pantallas extra pequeñas */
+  }
+}
