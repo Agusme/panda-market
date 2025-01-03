@@ -4,6 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import logoPanda from "../assets/panda.png";
 import Row from "react-bootstrap/esm/Row";
 import Col from "react-bootstrap/esm/Col";
+import productoEstrella from "../assets/producto-estrella.jpg"
 const Header = () => {
   return (
     <>
@@ -13,7 +14,7 @@ const Header = () => {
             <Row>
               <Col sm={12} md={6} lg={6}>
                 <Navbar.Brand href="#home">
-                  <div className="ms-5">
+                  <div className="d-flex justify-content-center mt-2">
                     <img
                       src={logoPanda}
                       alt="Logo de Panda Market"
@@ -34,13 +35,35 @@ const Header = () => {
               </Col>
             </Row>
           </Container>
-       
         </Container>
-  
       </Navbar>
-      <div className="hr-pink p-2">
+      <div className="hr-pink p-2"></div>
 
-</div>
+      <Container className="bg-header my-1" style={{ minHeight: "300px" }}>
+        <Row className="h-100">
+          <Col sm={12} md={6} lg={6}>
+            <div className="recuadro-img p-2 margin-titulo d-flex justify-content-center  w-50 mx-auto mb-5">
+<img src={productoEstrella} alt="producto estrella" className="img-fluid" />
+            </div>
+          </Col>
+          <Col sm={12} md={6} lg={6} className="font-family-header d-flex ">
+            <div className="w-75">
+              <h2 className="fw-bold margin-titulo">
+                {" "}
+                <span className="color-yellow"> Let  </span>
+                <span className="color-pink">p</span>
+                <span className="color-orange">a</span>
+                <span className="color-yellow">n</span>
+                <span className="color-aqua">d</span>
+                <span className="color-lightPink">a</span>
+                <span className="fontfamily-market"> market </span>  
+                <span className="color-aqua">add joy to your daily routine! </span>
+              </h2>
+              <button className="btn-pink lead fs-6 px-4 py-2 mt-5" >Learn More</button>
+            </div>
+          </Col>
+        </Row>
+      </Container>
     </>
   );
 };

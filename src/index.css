@@ -1,48 +1,96 @@
-@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
-*{
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap');* {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
 
-.bg-navbar{
-  background-color: #8ED7D5;
+.bg-navbar {
+  background-color: #8ed7d5;
   padding: 0px !important;
 }
-.bg-search{
+.bg-search {
   background-color: #f0f8ff92 !important;
 }
-.bg-lupa{
+.bg-lupa {
   background-color: #f0f8ff92 !important;
-color: #ffffff !important;
+  color: #ffffff !important;
 }
 .bg-search::placeholder {
-
-  color: #ffffff !important; 
+  color: #ffffff !important;
 }
 .grouped-items {
-  background-color: #F97AA9 ;
-  height: 100% !important;     
+  background-color: #f97aa9;
+  height: 100% !important;
   padding: 0px !important;
-margin: 0px;
+  margin: 0px;
 }
-.bg-rosa{
-  background-color: #F97AA9 ;
-  font-size:0.75rem;
+.bg-rosa {
+  background-color: #f97aa9;
+  font-size: 0.75rem;
   top: 10px;
   padding: 3px 5px !important;
 }
-.logo-size{
+.logo-size {
   width: 15vw;
 }
 
-.font-family-header{
+.font-family-header {
   font-family: "Hanken Grotesk", serif;
+}
+.hr-pink {
+  background-color: #ffdbde;
+}
+.bg-header {
+  background-image: url("./assets/fondopanda.jpg");
+  background-size: cover; /* Para que la imagen cubra todo el contenedor */
+  background-position: center; /* Centrar la imagen */
+  background-repeat: no-repeat; /* Evitar repeticiones */
+  height: 100vh; /* Altura de toda la pantalla */
+  width: 100%; /* Ancho completo */
+}
+.color-aqua{
+  color: #8DD6D1;
+}
+.color-pink{
+  color: #FB79A7;
+}
+.color-orange{
+  color: #FCA661;
+}
+.color-yellow{
+  color: #F7CA4C;
+}
+.color-lightPink{
+  color: #EAA1D6;
+  
+}
+.fontfamily-market{
+  font-family: "Playwrite AU SA", serif;
+color: #494547;}
 
+.margin-titulo{
+  margin-top: 110px;
 }
-.hr-pink{
-  background-color:#FFDBDE;
+.btn-pink{
+  background-color: #EAA2D8;
+  color: white;
+  border: none;
+  
+  
 }
+.btn-pink:hover {
+  background-color: #FB79A7;
+  color: white;
+  border: none;
+  transition: background-color 0.3s ease-in, color 0.3s ease-in;
+}
+.recuadro-img {
+  background-color: #FFECEE;
+  box-shadow: -10px 10px  #FADCDF;
+  
+}
+
 @media screen and (max-width: 768px) {
   .logo-size {
     width: 25vw; /* Incrementa el tamaño en pantallas pequeñas */
