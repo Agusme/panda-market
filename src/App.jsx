@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navegation from './layouts/Navegation';
-import Header from './components/Header';
+import Home from './pages/Home';
 
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
   return (
     <>
   <Navegation></Navegation>
-  <Header></Header>
+  <Home/>
     </>
   )
 }

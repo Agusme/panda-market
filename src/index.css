@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap');* {
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+VN:wght@100..400&display=swap');
+* {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
@@ -66,16 +67,16 @@
   
 }
 .fontfamily-market{
-  font-family: "Playwrite AU SA", serif;
+  font-family: "Playwrite VN", serif;
 color: #494547;}
 
 .margin-titulo{
   margin-top: 110px;
 }
 .btn-pink{
-  background-color: #EAA2D8;
-  color: white;
-  border: none;
+  background-color: #EAA2D8 !important;
+  color: white !important;
+  border: none !important;
   
   
 }
@@ -90,6 +91,12 @@ color: #494547;}
   box-shadow: -10px 10px  #FADCDF;
   
 }
+.img-present{
+  width: 120px;
+}
+.form-subscribe{
+  border: none !important;
+}
 
 @media screen and (max-width: 768px) {
   .logo-size {
@@ -100,5 +107,15 @@ color: #494547;}
 @media screen and (max-width: 576px) {
   .logo-size {
     width: 35vw; /* Aumenta aún más para pantallas extra pequeñas */
+
   }
+  .bg-header {
+    background-image: url("./assets/fondopandaCel.jpg");
+    background-size: cover; /* Para que la imagen cubra todo el contenedor */
+    background-position: center; /* Centrar la imagen */
+    background-repeat: no-repeat; /* Evitar repeticiones */
+    height: 100vh; /* Altura de toda la pantalla */
+    width: 100%; /* Ancho completo */
+  }
+ 
 }
