@@ -38,6 +38,10 @@
 
 .font-family-header {
   font-family: "Hanken Grotesk", serif;
+ 
+}
+.link-header{
+  color: #494547;
 }
 .hr-pink {
   background-color: #ffdbde;
